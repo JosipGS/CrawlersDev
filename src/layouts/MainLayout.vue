@@ -32,10 +32,6 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <meta
-      name="description"
-      content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    />
   </q-layout>
 </template>
 
