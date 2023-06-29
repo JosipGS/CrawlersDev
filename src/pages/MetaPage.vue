@@ -1,5 +1,5 @@
 <template>Meta page</template>
-<script>
+<script lang="ts">
 export default {
   preFetch() {
     console.log('running preFetch');

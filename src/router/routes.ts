@@ -9,20 +9,20 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/meta',
         component: () => import('pages/MetaPage.vue'),
-        meta: {
-          title: 'Meta Page test',
-          metaTags: [
-            {
-              property: 'og:description',
-              content: 'Please make this work!!!!!!!!!!!',
-            },
-            {
-              property: 'og:image',
-              content:
-                'https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg',
-            },
-          ],
-        },
+        // meta: {
+        //   title: 'Meta Page test',
+        //   metaTags: [
+        //     {
+        //       property: 'og:description',
+        //       content: 'Please make this work!!!!!!!!!!!',
+        //     },
+        //     {
+        //       property: 'og:image',
+        //       content:
+        //         'https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg',
+        //     },
+        //   ],
+        // },
       },
     ],
   },
