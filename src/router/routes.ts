@@ -13,10 +13,6 @@ const routes: RouteRecordRaw[] = [
           title: 'Meta Page test',
           metaTags: [
             {
-              property: 'og:title',
-              content: 'XXXXXXXXXXXXXXXX!!!!!!!!!!!',
-            },
-            {
               property: 'og:description',
               content: 'Please make this work!!!!!!!!!!!',
             },
